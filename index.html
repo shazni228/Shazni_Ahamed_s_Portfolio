@@ -107,25 +107,7 @@
 							</form>
 						</article>
 						
-						<?php
-						if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
-							$name = $_POST['name'];
-							$email = $_POST['email'];
-							$message = $_POST['message'];
-							
-							$to = 'shazniahamed228@gmail.com'; // Replace with your Gmail address
-							$subject = 'New Contact Message';
-							$body = "Name: $name\nEmail: $email\n\n$message";
-							$headers = "From: $email";
 						
-							// Send email
-							if(mail($to, $subject, $body, $headers)) {
-								echo 'Email sent successfully.';
-							} else {
-								echo 'Sorry, there was an error sending your message.';
-							}
-						}
-						?>
 						
 						
 							<ul class="icons">
