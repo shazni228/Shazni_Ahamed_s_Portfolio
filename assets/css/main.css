@@ -1290,24 +1290,12 @@ input, select, textarea {
 				display: none;
 			}
 
-			#header .logo {
-				width: 5.5rem;
-				height: 5.5rem;
-				border: solid 1px #ffffff;
-				border-radius: 100%;
-				overflow: hidden; /* Ensure the image fits within the circle */
-			}
 			
-			#header .logo img {
-				width: 100%;
-				height: 100%;
-				object-fit: cover; /* Make sure the image covers the entire div */
-				border-radius: 100%;
-			}
-			
-
-			#header .logo .icon:before {
-				font-size: 2rem;
+			#header .profile-picture img {
+				width: 200px; /* Adjust the size as needed */
+				height: 200px; /* Adjust the size as needed */
+				border-radius: 50%; /* Makes the image round */
+				margin-bottom: 20px; /* Optional: Adds space below the image */
 			}
 
 		#header .content {
